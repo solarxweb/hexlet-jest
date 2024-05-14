@@ -1,7 +1,7 @@
 import reverse from '../src/index.js';
 
 test('reverse', () => {
-  const str = 'hellO';
+  const str = 'hello';
   expect(reverse(str)).toEqual('olleh');
   expect(reverse('')).toEqual('');
 });
